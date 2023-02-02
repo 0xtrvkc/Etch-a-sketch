@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Etch a Sketch</title>
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <link href='https://fonts.googleapis.com/css?family=Caesar Dressing&effect=fire' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>  
+    
+    <h1 class="font-effect-fire">E t c h - A - S k e t c h</h1>
+
+        <div class="grid"></div>
+
+    <div class="btns">
+        <button id="randomColor">Random</button>
+        <div class="colorAndPrompt">
+            <input type="color" id="color">
+            <p>color picker</p>
+        </div>
+        <div class="sliderAndValue">
+            <input type="range" min="4" max="32" value="16" id="slider">
+            <p class="value">16</p>
+        </div>
+        <button id="erase">Erase</button>
+    </div>  
+
+    <footer></footer>
+</body>
+</html>
